@@ -1,0 +1,26 @@
+GET http://localhost:3000/cars HTTP/1.1
+
+###
+POST  http://localhost:3000/cars HTTP/1.1
+Content-Type: application/json
+
+{
+  "model": "Jentar",
+  "year": 2001,
+  "color": "black",
+  "user_id": "654feb6631eb9a23d9af2c00"
+}
+
+###
+PATCH  http://localhost:3000/cars/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "model": "Cobalt",
+  "year": 2021,
+  "color": "black",
+  "user_id": ""
+}
+
+###
+DELETE http://localhost:3000/cars/ HTTP/1.1
