@@ -8,8 +8,9 @@ import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
-    CarsModule,
+    AuthModule,
     UsersModule,
+    CarsModule,
     MongooseModule.forRoot('mongodb://127.0.0.1:27017/nest'),
     AuthModule,
   ],

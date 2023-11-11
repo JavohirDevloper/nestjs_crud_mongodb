@@ -5,8 +5,8 @@ POST  http://localhost:3000/users HTTP/1.1
 Content-Type: application/json
 
 {
-  "username": "Xasanboy",
-  "age": 20,
+  "username": "Jahongir",
+  "age": 15,
   "gender": "male",
   "password": "1234"
 }
@@ -23,4 +23,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/users/ HTTP/1.1
+DELETE http://localhost:3000/users/6550114109d67ccdd414973d HTTP/1.1
