@@ -1,0 +1,26 @@
+GET http://localhost:3000/users HTTP/1.1
+
+###
+POST  http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "Xasanboy",
+  "age": 20,
+  "gender": "male",
+  "password": "1234"
+}
+
+###
+PATCH  http://localhost:3000/users/654fea66f11f2391370c01d7 HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "Jahongir",
+  "age": 15,
+  "gender": "male",
+  "password": "1234"
+}
+
+###
+DELETE http://localhost:3000/users/ HTTP/1.1
