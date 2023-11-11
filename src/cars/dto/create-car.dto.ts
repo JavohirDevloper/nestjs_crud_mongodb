@@ -1,3 +1,3 @@
-import { Car } from '../entities/car.entity';
+import { CarEntity } from '../entities/car.entity';
 
-export class CreateCarDto extends Car {}
+export class CreateCarDto extends CarEntity {}
